@@ -1,4 +1,4 @@
-# SonioxTrans
+# SonioxTrans 日文同声传译
 
 SonioxTrans 是一个面向 macOS 的日语实时字幕工具，通过 Soniox `stt-rt-v5` 同时生成日语原文和简体中文翻译。
 
