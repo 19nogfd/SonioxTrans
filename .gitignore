@@ -1,0 +1,78 @@
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 配置文件（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build & Swift/macOS
+MacUI/build/
+MacUI/.build/
+MacUI/*.xcodeproj/xcuserdata/
+MacUI/*.xcworkspace/
+MacUI/RealtimeTranslator.app/
+xcuserdata/
+iOS/DerivedData/
+iOS/TestBuild/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dmg
+
+# 模型文件（体积巨大，按需下载）
+models/
+
+# uv & others
+.venv/
+.python-version
+uv.lock
+
+# 日志
+*.log
+logs/
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地数据
+data/
+*.wav
+*.mp3
+*.pcm

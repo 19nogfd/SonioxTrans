@@ -1,0 +1,5 @@
+certifi
+numpy
+pyinstaller
+sounddevice
+websockets
